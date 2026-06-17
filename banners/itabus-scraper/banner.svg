@@ -88,12 +88,6 @@
     </text>
   </g>
 
-  <!-- CTA button -->
-  <rect x="160" y="400" width="230" height="54" rx="27" fill="url(#btn)"/>
-  <text x="275" y="434" font-family="'SF Pro Text','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#E32F28" text-anchor="middle">
-    Try on Apify Store →
-  </text>
-
   <!-- Apify badge -->
   <text x="1480" y="460" font-family="'SF Pro Text','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#FFFFFF" opacity="0.35" text-anchor="end">
     Apify Actor
