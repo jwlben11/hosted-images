@@ -1,0 +1,96 @@
+<svg width="1600" height="400" viewBox="0 0 1600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF5F6"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ED1C40"/>
+      <stop offset="100%" stop-color="#C41532"/>
+    </linearGradient>
+    <linearGradient id="bannerRed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ED1C40"/>
+      <stop offset="50%" stop-color="#FF5A6E"/>
+      <stop offset="100%" stop-color="#ED1C40"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="400" fill="url(#bgGrad)"/>
+
+  <!-- Top accent stripe -->
+  <rect width="1600" height="5" fill="url(#bannerRed)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="-40" cy="320" r="200" fill="#ED1C40" opacity="0.05"/>
+  <circle cx="60" cy="400" r="140" fill="#ED1C40" opacity="0.04"/>
+  <circle cx="1640" cy="300" r="220" fill="#ED1C40" opacity="0.05"/>
+  <circle cx="1540" cy="400" r="120" fill="#FF6B82" opacity="0.04"/>
+
+  <!-- People silhouettes -->
+  <g transform="translate(220, 240)" opacity="0.1">
+    <circle cx="0" cy="-30" r="20" fill="#ED1C40"/>
+    <path d="M-25 20 Q-28 55 0 60 Q28 55 25 20 Q23 6 0 0 Q-23 6 -25 20Z" fill="#ED1C40"/>
+  </g>
+  <g transform="translate(300, 210)" opacity="0.08">
+    <circle cx="0" cy="-30" r="20" fill="#ED1C40"/>
+    <path d="M-25 20 Q-28 55 0 60 Q28 55 25 20 Q23 6 0 0 Q-23 6 -25 20Z" fill="#ED1C40"/>
+  </g>
+  <g transform="translate(1300, 230)" opacity="0.1">
+    <circle cx="0" cy="-30" r="20" fill="#ED1C40"/>
+    <path d="M-25 20 Q-28 55 0 60 Q28 55 25 20 Q23 6 0 0 Q-23 6 -25 20Z" fill="#ED1C40"/>
+  </g>
+  <g transform="translate(1380, 270)" opacity="0.08">
+    <circle cx="0" cy="-30" r="20" fill="#FF6B82"/>
+    <path d="M-25 20 Q-28 55 0 60 Q28 55 25 20 Q23 6 0 0 Q-23 6 -25 20Z" fill="#FF6B82"/>
+  </g>
+
+  <!-- Data bars -->
+  <g transform="translate(50, 100)" opacity="0.08">
+    <rect x="0" y="50" width="30" height="80" rx="4" fill="#ED1C40"/>
+    <rect x="42" y="25" width="30" height="105" rx="4" fill="#ED1C40"/>
+    <rect x="84" y="65" width="30" height="65" rx="4" fill="#FF6B82"/>
+    <rect x="126" y="10" width="30" height="120" rx="4" fill="#ED1C40"/>
+    <rect x="168" y="40" width="30" height="90" rx="4" fill="#FF6B82"/>
+  </g>
+  <g transform="translate(1370, 100)" opacity="0.08">
+    <rect x="0" y="50" width="30" height="80" rx="4" fill="#ED1C40"/>
+    <rect x="42" y="25" width="30" height="105" rx="4" fill="#ED1C40"/>
+    <rect x="84" y="65" width="30" height="65" rx="4" fill="#FF6B82"/>
+    <rect x="126" y="10" width="30" height="120" rx="4" fill="#ED1C40"/>
+    <rect x="168" y="40" width="30" height="90" rx="4" fill="#FF6B82"/>
+  </g>
+
+  <!-- ====== MAIN CONTENT ====== -->
+
+  <!-- Title -->
+  <text x="800" y="155" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="76" font-weight="900" fill="#1A1A1A" letter-spacing="-0.8">
+    Meetup Events
+  </text>
+
+  <!-- Red title accent -->
+  <text x="800" y="225" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="76" font-weight="900" fill="url(#redGrad)" letter-spacing="-0.8">
+    Scraper
+  </text>
+
+  <!-- Underline -->
+  <rect x="660" y="242" width="280" height="4" rx="2" fill="url(#bannerRed)"/>
+
+  <!-- Tagline -->
+  <text x="800" y="285" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500" fill="#6B6B6B" letter-spacing="0.3">
+    Extract event data from Meetup.com — no login, no API key, no browser
+  </text>
+
+  <!-- Feature pills -->
+  <g transform="translate(800, 333)">
+    <rect x="-282" y="-14" width="160" height="28" rx="14" fill="#ED1C40" fill-opacity="0.08" stroke="#ED1C40" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="-202" y="5" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#C41532">20+ Structured Fields</text>
+
+    <rect x="-102" y="-14" width="160" height="28" rx="14" fill="#ED1C40" fill-opacity="0.08" stroke="#ED1C40" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="-22" y="5" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#C41532">Up to 500 Events</text>
+
+    <rect x="78" y="-14" width="160" height="28" rx="14" fill="#ED1C40" fill-opacity="0.08" stroke="#ED1C40" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="158" y="5" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#C41532">Search &amp; Filter</text>
+  </g>
+
+</svg>
